@@ -36,9 +36,22 @@ body {
   margin: 0 auto;
 }
 
+.banner {
+  background-image: url("../img/banner_home_v1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header {
-  background: #2b2b2b;
+  background: transparent;
   padding: 1rem 0;
+  position: fixed;
+  width: 100%;
 }
 .header__wrapper {
   display: flex;
